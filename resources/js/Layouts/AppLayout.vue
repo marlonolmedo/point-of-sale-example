@@ -38,7 +38,7 @@ const logout = () => {
 
         <div class="min-h-screen bg-gray-100 flex">
             <!-- sidebar content -->
-            <aside class="w-64 h-screen bg-gray-800 text-white">
+            <aside class="w-64  bg-gray-800 text-white">
                 <div class="p-6">
                     <h1 class="text-3xl font-bold">Sidebar</h1>
                 </div>
@@ -47,10 +47,10 @@ const logout = () => {
                         Dashboard
                     </NavLinkSideBar>
                     <DropdownLinkSideBar name="Products">
-                        <a class="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-600" :href="route('product.index')">
+                        <a class="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-600" :href="route('product.create')">
                             Create
                         </a>
-                        <a class="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-600" href="#">
+                        <a class="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-600" :href="route('product.index')">
                             List
                         </a>
                     </DropdownLinkSideBar>

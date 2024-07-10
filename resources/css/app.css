@@ -6,3 +6,7 @@
     display: none;
 }
 
+div .vs__dropdown-toggle {
+    max-height: 2.5rem;
+    height: 4.2rem;
+}
